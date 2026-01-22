@@ -42,7 +42,7 @@ x_axis_labels = [] #labels for x-axis
 for n in range(movement_num): #(30)
     x_axis_labels.append('M' + str(n+1))
 
-chosen_participants = [97] #CHANGE
+chosen_participants = [97] #CHANGE BASED ON PARTICIPANT NUMBER CHOSEN IN DANCETAG
 base_id = 8 #CHANGE
 
 
@@ -58,7 +58,7 @@ for p in chosen_participants:
     for m in range(1, movement_num): #num of movements (30)
         print("\tMovement ", m)
 
-        file = 'C:/Users/cibri/OneDrive/Documents/DanceZense/DanceTag/Mocopi Hello World_Data/BVH Files/M' + str(m) + 'P' + str(p) + 'S1_TV.bvh' #CHANGE TO MATCH COMPUTER PATH NAME
+        file = '.../BVH Files/M' + str(m) + 'P' + str(p) + 'S1_TV.bvh' #CHANGE TO MATCH COMPUTER PATH NAME
 
         #checks if bvh file exists before transformation
         if ((os.path.isfile(file) == False)):
@@ -68,7 +68,7 @@ for p in chosen_participants:
             continue
         
         #checks if transformed csv file alreay exists
-        if ((os.path.isfile('C:/Users/cibri/OneDrive/Desktop/Transformed File/M' + str(m) + 'P' + str(p) + 'S1_TV.csv') == True)): #CHANGE TO MATCH COMPUTER PATH NAME
+        if ((os.path.isfile('.../Transformed File/M' + str(m) + 'P' + str(p) + 'S1_TV.csv') == True)): #CHANGE TO MATCH COMPUTER PATH NAME
             print("Already transformed")
 
             continue
@@ -105,7 +105,7 @@ for p in chosen_participants:
 
 
         ## Saving file
-        folder_path = 'C:/Users/cibri/OneDrive/Desktop/Transformed File'
+        folder_path = '.../Transformed File' #CHANGE TO MATCH COMPUTER PATH NAME
         os.makedirs(folder_path, exist_ok=True)
 
         csv_file_path = os.path.join(folder_path, 'M' + str(m) + 'P' + str(p) + 'S1_TV.csv')
@@ -130,8 +130,8 @@ for k in chosen_participants:
   idx = 0 
     
   for m in movement_arr:  
-    participant = 'C:/Users/cibri/OneDrive/Desktop/Transformed File/M' + str(m) + 'P' + str(k) + 'S1_TV.csv'
-    base = 'C:/Users/cibri/OneDrive/Desktop/Transformed File/M' + str(m) + 'P' + str(base_id) + 'S2_TV.csv'
+    participant = '.../Transformed File/M' + str(m) + 'P' + str(k) + 'S1_TV.csv' #CHANGE TO MATCH COMPUTER PATH NAME
+    base = '...p/Transformed File/M' + str(m) + 'P' + str(base_id) + 'S2_TV.csv' #CHANGE TO MATCH COMPUTER PATH NAME
 
     print("Movement: " + str(m))
 
