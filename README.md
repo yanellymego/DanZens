@@ -18,3 +18,6 @@ DanZens is a toolkit for real-time motion analysis in dance using wearable senso
 ## Paper / Reference
 Y. Mego, C. Valdez, H. M. Camarillo-Abad, and F. L. Cibrian, “DanZens: Wearable Technology for Real-Time Motion Analysis in Dance,” in *Proc. IEEE Int. Conf. Pervasive Computing and Communications (PerCom)*, 2025. [Online]. Available: https://ieeexplore.ieee.org/document/11038673
 
+## Funding
+This work was supported by Chapman University
+
