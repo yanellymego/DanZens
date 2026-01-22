@@ -1,5 +1,9 @@
 # DanZens
-DanZens is a toolkit for real-time motion analysis in dance using wearable sensors. By combining motion capture, annotation, and visualization, it enables precise, cost-effective comparisons between two performers. DanZens leverages Sony Mocopi sensors, DanceTag for movement capture, and DanceVis for visualizing performance differences using Dynamic Time Warping (DTW). The system provides actionable, personalized feedback without requiring expensive lab-based equipment.
+DanZens is a toolkit for real-time motion analysis in dance using wearable sensors. By combining motion capture, annotation, and visualization, it enables precise, cost-effective comparisons between two performers.
+
+The system was developed as part of an IEEE PerCom 2025 demo paper and was presented live at the conference, demonstrating its real-world applicability in both research and interactive settings.
+
+DanZens leverages Sony Mocopi sensors, DanceTag for movement capture, and DanceVis for visualizing performance differences using Dynamic Time Warping (DTW). The system provides actionable, personalized feedback without requiring expensive lab-based equipment.
 
 ## Features
 - **Wearable sensor integration:** captures detailed movement data in real time.
